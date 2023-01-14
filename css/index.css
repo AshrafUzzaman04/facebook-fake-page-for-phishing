@@ -1,0 +1,130 @@
+.d1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+
+input {
+    font-size: 20px;
+    font-family: Segoe UI;
+    width: 530px;
+    height: 40px;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden;
+    background-color: rgb(245, 248, 250);
+    border-bottom: 2px solid black;
+}
+
+.p6 {
+    color: red;
+    font-family: segoe UI;
+    text-align: center;
+}
+
+.p2,
+input {
+    margin: 0;
+}
+
+.p2 {
+    font-size: 15px;
+    font-family: Segoe UI;
+    background-color: rgb(245, 248, 250);
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.d3 {
+    margin-top: 20px;
+}
+
+span {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: rgb(101, 119, 134);
+}
+
+button {
+    background-color: rgb(142, 208, 249);
+    border: hidden;
+    font-family: Segoe UI;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    width: 530px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+a {
+    color: rgb(124, 182, 231);
+    text-decoration: none;
+    font-family: Segoe UI;
+    margin-top: 30px;
+}
+
+.p5 {
+    color: white;
+    font-family: Segoe UI;
+    font-size: 20px;
+}
+
+.div4 {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+@media(max-width:600px) {
+    input,
+    button,
+    a {
+        width: 440px;
+    }
+}
+
+@media(max-width:500px) {
+    input,
+    button,
+    a {
+        width: 340px;
+    }
+}
+
+@media(max-width:400px) {
+    input,
+    button,
+    a {
+        width: 300px;
+    }
+}
+
+@media(max-width:320px) {
+    input,
+    button,
+    a {
+        width: 280px;
+    }
+}
+
+@media(max-width:300px) {
+    input,
+    button,
+    a {
+        width: 200px;
+    }
+}
